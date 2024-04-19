@@ -19,7 +19,7 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-.organelle_container>img:hover{
+.organelle_container>div>img:hover{
     cursor: grab;
 }
 

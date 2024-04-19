@@ -26,6 +26,15 @@ h1{
     cursor: pointer;
 }
 
+#plantbutton>img{
+    transition-duration: 0.4s;
+}
+
+#plantbutton>img:hover{
+    height: 450px;
+    width: 450px;
+}
+
 #animalbutton{
     border: 3px solid black;
     border-radius: 50px;
@@ -37,6 +46,15 @@ h1{
     background-color: hsl(170, 89%, 76%);
     border-radius: 40px;
     cursor: pointer;
+}
+
+#animalbutton>img{
+    transition-duration: 0.4s;
+}
+
+#animalbutton>img:hover{
+    height: 450px;
+    width: 450px;
 }
 
 .divider{

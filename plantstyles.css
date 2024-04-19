@@ -20,7 +20,7 @@ body{
 }
 
 .organelle_container>img:hover{
-    cursor:grab;
+    cursor: grab;
 }
 
 #cellwallcard{

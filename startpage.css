@@ -24,8 +24,6 @@ h1{
     background-color: hsl(88, 77%, 78%);
     border-radius: 40px;
     cursor: pointer;
-    height: 450px;
-    width: 450px;
 }
 
 #plantbutton>img{

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Cell Puzzle</title>
+    <link rel="stylesheet" href="animalstyles.css">
+    <link rel="shortcut icon" href="startpage/fullcell.png" type="image/x-icon">
+    <script src="animalmain.js" defer></script>
+</head>
+<body>
+    <div class="titlestuff">
+        <button id="backbutton" onclick="document.location='index.html'">
+            <img src="back-button.png" alt="" style="height: 50px; width: 50px;">
+        </button>
+        <h1 id="toptitle">Animal Cell</h1>
+    </div>
+    <div class="container" id="animalcontainer">
+        <div id="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="animalcellparts/blankframe.png" alt="" id="frame" style="width: 400px;height: 400px;">
+        </div>
+        <h1 id="questiontitle">Question:</h1>
+        <h2 id="questionhere">Placeholder</h2>
+    </div>
+    <div class="organelle_container">
+        <div id="cellmembranecard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Cell Membrane</h1>
+            <img src="animalcellparts/cellmembrane.png" alt="" id="cellmembrane" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="cytoplasmcard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Cytoplasm</h1>
+            <img src="animalcellparts/cytoplasm.png" alt="" id="cytoplasm" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="golgicard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Golgi Apparatus</h1>
+            <img src="animalcellparts/golgi.png" alt="" id="golgi" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="lysosomescard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Lysosomes</h1>
+            <img src="animalcellparts/lysosomes.png" alt="" id="lysosomes" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="mitochondriacard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Mitochondria</h1>
+            <img src="animalcellparts/mitochondria.png" alt="" id="mitochondria" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="nucleoluscard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Nucleolus</h1>
+            <img src="animalcellparts/nucleolus.png" alt="" id="nucleolus" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="nucleuscard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Nucleus</h1>
+            <img src="animalcellparts/nucleus.png" alt="" id="nucleus" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="ribosomescard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Ribosomes</h1>
+            <img src="animalcellparts/ribosomes.png" alt="" id="ribosomes" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="rough_endocard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Rough Endoplasmic Reticulum</h1>
+            <img src="animalcellparts/rough_endo.png" alt="" id="rough_endo" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="smooth_endocard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Smooth Endoplasmic Reticulum</h1>
+            <img src="animalcellparts/smooth_endo.png" alt="" id="smooth_endo" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="vacuolecard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Vacuole</h1>
+            <img src="animalcellparts/vacuole.png" alt="" id="vacuole" style="width: 400px;height: 400px;">
+        </div>
+
+        <div id="cytoskeletoncard" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h1>Cytoskeleton</h1>
+            <img src="animalcellparts/cytoskeleton.png" alt="" id="cytoskeleton" style="width: 400px;height: 400px;">
+        </div>
+    </div>
+</body>
+</html>

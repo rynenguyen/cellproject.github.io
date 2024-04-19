@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <link rel="stylesheet" href="startpage.css">
+    <link rel="shortcut icon" href="startpage/fullcell.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="titlestuff">
+            <h1 id="titletext">Welcome to Ryne's Cell Game!</h1>
+        </div> 
+        <div class="startstuff">
+            <button id="plantbutton" onclick="document.location='plantindex.html'">
+                <h2>Plant Cell</h2>
+                <img src="startpage/fullplantcell.png" alt="" style="height: 400px; width: 400px;">
+            </button>
+            <div style="text-align: center"> 
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" Width="89px" OnClick="btnSubmit_Click" />
+                <div class="divider"></div>
+                <asp:Button ID="btnClear" runat="server" Text="Clear" Width="89px" OnClick="btnClear_Click" />
+            </div>
+            <button id="animalbutton" onclick="document.location='animalindex.html'">
+                <h2>Animal Cell</h2>
+                <img src="startpage/fullcell.png" alt="" style="height: 400px; width: 400px;">
+            </button>
+        </div>
+    </div>
+    
+</body>
+</html>

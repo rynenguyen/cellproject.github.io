@@ -13,6 +13,21 @@ h1{
     align-items: center;
 }
 
+.directions{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcometext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#directionlist{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #plantbutton{
     border: 3px solid black;
     border-radius: 50px;

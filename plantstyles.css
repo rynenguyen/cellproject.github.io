@@ -19,6 +19,10 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.organelle_container>img:hover{
+    cursor:grab;
+}
+
 #cellwallcard{
     justify-self: center;
     z-index: 2;

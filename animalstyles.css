@@ -25,6 +25,10 @@ body{
     object-fit: cover;
 }
 
+.organelle_container>img:hover{
+    cursor:grab;
+}
+
 #cellmembranecard{
     justify-self: center;
     z-index: 2;
